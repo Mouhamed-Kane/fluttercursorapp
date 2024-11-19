@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  supabase_flutter: ^1.10.25
+  supabase_auth_ui: 0.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,7 +54,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  assets:
+    - assets/logo.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
